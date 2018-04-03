@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trab Aula A04E03</title>
+</head>
+
+<body>
+    <!-- CSS para formatar a página -->
+    <style> 
+        .formulario {
+            width: 40%;
+            margin-left: 30%;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        input{
+            font-size: 0.6em;
+            text-align: center;
+        }
+        .img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>    
+    <img src="trab_a05-01_img.png" class="img" alt=""> <!-- Imagem Logo Veterinaria -->
+    <form action="" class="formulario">
+        <fieldset>
+            <legend>Ração para o Gatineo</legend>
+            Peso da Ração Restante: (Kg)<br>
+            <input type="text" name="" id="inPesoTotal" placeholder="Peso em Kg"><br><!-- Entrada peso ração (EM KG) -->
+            Consumo Diário: (gr)<br>
+            <input type="text" name="" id="inComsumoDiario" placeholder="Peso em gramas"> <!-- Entrada Consumo/dia (EM GR) -->
+            <br>
+            <br>
+            <input type="button" value="CALCULAR" id="inBtn"> <!-- Botão para chamar a função -->
+            <br>
+            <br>
+            <h3 id="outResultado"></h3> <!-- Local determinado para a saída -->
+        </fieldset>
+    </form>
+    <script src="trab_a05-01.js"></script> <!-- Direcionamento do arquivo javascript -->
+</body>
+
+</html>
