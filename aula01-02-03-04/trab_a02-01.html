@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício Aula 02 - JavaScript</title>
+</head>
+
+<body>
+    <h1>Calculadora de Financiamento</h1>
+    <h3>Entre com o modelo e o valor da tabela FIPE do veículo e veja a possibilidade de financiamento:</h3>
+
+    <label for="">
+        <p>Nome do Veículo:
+            <input type="text" name="carroNome" id="carroNome">
+        </p>
+        <!-- Campo para informar o nome do veículo, o JavaScript vai chamar pelo id -->
+
+        <p>Valor:
+            <input type="text" name="carroValor" id="carroValor">
+            <!-- Campo para informar o valor do carro, o JavaScript vai chamar pelo id -->
+            <input type="button" value="Calcular" id="calcular">
+            <!-- Botão que irá chamar a função, o JavaScript vai chamar pelo id -->
+        </p>
+    </label>
+
+    
+    <p id="promocao"></p>
+    <!-- paragrafo "promocao" -->
+    <p id="entrada"></p>
+    <!-- paragrafo "entrada" -->
+    <p id="parcelas"></p>
+    <!-- paragrafo "parcelas" -->
+
+    <script src="trab_a02-01.js"></script>
+</body>
+
+</html>
