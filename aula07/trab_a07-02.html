@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comissão Garçom</title>
+</head>
+
+
+
+<body>
+<!-- Estilo css básico incorporado no html -->
+    <style>
+        .caixaMestre{
+            margin-left: 30%;
+            width: 40%;
+            background-color: #efefef;
+            padding-bottom: 1%;
+            
+        }
+        .cabecalho {
+            background-color: #6a1b8e;
+            color: white;
+            height: 3vh;
+            text-align: left;
+            padding: 1%;
+            
+        }
+        body {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+
+    <div class="caixaMestre">
+        <div class="cabecalho" id="cabecalho"><strong>Comissão Garçom</strong></div><br/>
+        Valor a pagar:
+        <br/>
+        <input type="text" name="" id="inValor" size="5">R$ <!-- Entrada da velocidade limite-->
+     <br/><br/>
+        <input type="button" value="FINALIZAR CONTA" id="btnVer"> <!-- Botão para chamar a função -->
+        <div id="saidaTexto" id="saidaTexto" hidden>
+        <p>Valor da comissão: <span id="comissao"></span> </p>
+        <p>Valor total a pagar: <span id="total"></span> </p></div>
+    </div>
+    <script src="trab_a07-02.js"></script> <!-- Link do arquivo .js com as funções -->
+</body>
+
+</html>
