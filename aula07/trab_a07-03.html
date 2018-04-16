@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farmácia Avenida</title>
+</head>
+
+
+
+<body>
+    <!-- Estilo css básico incorporado no html -->
+    <style>
+        .caixaMestre {
+            width: 60%;
+            margin-left: 20%;
+            padding-top: 3%;
+        }
+
+        .caixa_esq {
+            width: 30%;
+            float: left;
+        }
+
+        .caixa_dir {
+            float: left;
+            width: 49%;
+            background-color: #efefef;
+            padding-bottom: 1%;
+            margin-left: 10%;
+            height: 304px;
+        }
+
+        .cabecalho {
+            background-color: green;
+            color: white;
+            height: 3vh;
+            text-align: left;
+            padding: 1%;
+
+        }
+
+        body {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+
+    <div class="caixaMestre">
+        <div class="caixa_esq">
+            <img src="trab_a07-03.jpeg" alt="" srcset="">
+        </div>
+        <div class="caixa_dir">
+            <div class="cabecalho" id="cabecalho">
+
+                <strong>Farmácia Avenida</strong>
+            </div>
+            <br/> Valor da compra:
+            <input type="text" name="" id="inValor" size="5" placeholder="00,00">R$
+            <!-- Entrada da velocidade limite-->
+            <br/>
+            <br/>
+            <input type="button" value="FINALIZAR CONTA" id="btnVer">
+            <!-- Botão para chamar a função -->
+            <div id="saidaTexto" id="saidaTexto" hidden>
+                <p>Você pode doar:
+                    <span id="doacao"></span>
+                </p>
+                <p>Ao final você paga o valor exato de:
+                    <span id="total"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="trab_a07-03.js"></script>
+    <!-- Link do arquivo .js com as funções -->
+</body>
+
+</html>
