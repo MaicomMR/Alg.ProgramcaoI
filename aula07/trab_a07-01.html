@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leitor de Velocidade</title>
+</head>
+
+
+
+<body>
+<!-- Estilo css básico incorporado no html -->
+    <style>
+        .caixaMestre{
+            margin-left: 30%;
+            width: 40%;
+            background-color: #efefef;
+            padding-bottom: 1%;
+            
+        }
+        .cabecalho {
+            background-color: #af1500;
+            color: white;
+            height: 3vh;
+            text-align: left;
+            padding: 1%;
+            
+        }
+        body {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+
+    <div class="caixaMestre">
+        <div class="cabecalho" id="cabecalho"><strong>Fui multado?</strong></div><br/>
+        Velocidade Permitida:
+        <br/>
+        <input type="text" name="inVelLimite" id="inVelLimite" size="5">km/h <!-- Entrada da velocidade limite-->
+        <br/> Velocidade do Condutor
+        <br/>
+        <input type="text" name="inVelCondutor" id="inVelCondutor" size="5">km/h <!-- Entrada da velocidade do veículo-->
+        <br/><br/>
+        <input type="button" value="VERIFICAR" id="btnVer"> <!-- Botão para chamar a função -->
+        <p id="saidaTexto"></p>
+    </div>
+    <script src="trab_a07-01.js"></script> <!-- Link do arquivo .js com as funções -->
+</body>
+
+</html>
