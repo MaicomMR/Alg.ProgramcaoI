@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa Crédito Empresarial</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<style>
+.caixa_mestre {
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 20%;
+    padding: 1px;
+    line-height: 150%;
+}
+.caixa_esq{
+    float: left;
+}
+.caixa_dir {
+    float: left;
+    padding-left: 2%;
+}
+
+</style>
+
+
+
+    <div class="caixa_mestre">
+        <div class="caixa_esq">
+            <img src="credito.jpg" alt="">
+        </div>
+        <div class="caixa_dir">
+            <h1>Programa Crédito Empresarial</h1>
+            Nome do Cliente:
+            <input type="text" name="inNome" id="inNome" size="50" placeholder="Digite seu nome aqui">
+            <br> Ano de Nascimento
+            <input type="text" name="inAno" id="inAno" placeholder="exemplo: 1950">
+            <br>
+            <input type="button" value="Verificar Situação" id="vButton">
+            <br>
+            <h2 id="outTexto0"></h2>
+            <h3 id="outTexto"></h3>
+            <script src="trab1.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

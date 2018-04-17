@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa Abono Salarial</title>
+</head>
+
+<body>
+
+<style>
+.caixa_mestre {
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 20%;
+    padding: 1px;
+    line-height: 150%;
+}
+.caixa_esq{
+    float: left;
+    width: 40%;
+}
+.caixa_dir {
+    float: left;
+    padding-left: 2%;
+    text-align: center;
+}
+
+</style>
+
+
+
+    <div class="caixa_mestre">
+        <div class="caixa_esq">
+            <img src="salario.jpg" alt="" width="90%">
+        </div>
+        <div class="caixa_dir">
+            <h1>Programa Crédito Empresarial</h1>
+            Salário:<br>
+            <input type="text" name="inNome" id="inSalario" size="10" placeholder="0000.00"><br>
+            <br> Tempo de Serviço:<br>
+            <input type="text" name="inPago" id="inAnos" size="10" placeholder="Anos">
+            <br>
+            <input type="button" value="Pagar" id="vButton">
+            <br>
+            <h3 id="outTexto1"></h3>
+            <h3 id="outTexto2"></h3>
+            <script src="trab3.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

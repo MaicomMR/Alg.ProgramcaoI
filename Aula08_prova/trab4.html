@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Mercado Avenida</title>
+</head>
+
+<body>
+
+    <style>
+        .caixa_mestre {
+            margin-top: 5%;
+            width: 60%;
+            margin-left: 20%;
+            padding: 1px;
+            line-height: 150%;
+        }
+
+        .caixa_esq {
+            float: left;
+            width: 40%;
+        }
+
+        .caixa_dir {
+            float: left;
+            padding-left: 2%;
+            text-align: center;
+        }
+    </style>
+
+
+
+    <div class="caixa_mestre">
+        <div class="caixa_esq">
+            <img src="super.jpg" alt="" width="90%">
+        </div>
+        <div class="caixa_dir">
+            <h1>Programa Crédito Empresarial</h1>
+            Quantidade de itens no carrinho:
+            <br>
+            <input type="text" id="inItens" size="10" placeholder="0">
+            <br>
+            <br>
+            <input type="button" value="Calcular Notas Fiscais" id="vButton">
+            <br>
+            <h3 id="outTexto1"></h3>
+            <h3 id="outTexto2"></h3>
+            <script src="trab4.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

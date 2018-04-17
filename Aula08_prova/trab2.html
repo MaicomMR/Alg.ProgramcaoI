@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa Caixa Central</title>
+</head>
+
+<body>
+
+<style>
+.caixa_mestre {
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 20%;
+    padding: 1px;
+    line-height: 150%;
+}
+.caixa_esq{
+    float: left;
+    width: 40%;
+}
+.caixa_dir {
+    float: left;
+    padding-left: 2%;
+}
+
+</style>
+
+
+
+    <div class="caixa_mestre">
+        <div class="caixa_esq">
+            <img src="caixa.jpg" alt="" width="90%">
+        </div>
+        <div class="caixa_dir">
+            <h1>Programa Caixa Central</h1>
+            Valor da Conta:
+            <input type="text" name="inNome" id="inConta" size="10" placeholder="Digite o valor total da conta">
+            <br> Valor Pago:
+            <input type="text" name="inPago" id="inPago" size="10" placeholder="Digite o valor pago pelo cliente">
+            <br>
+            <input type="button" value="Pagar" id="vButton">
+            <br>
+            <h3 id="outTexto"></h3>
+            <script src="trab2.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
